@@ -52,25 +52,25 @@
 
             <div class="inputs">
                 <div class="input-group">
-                    <label " for=" ">Departure</label>
-                    <input class="inp-style " type="date " name=" ">
+                    <label for=" ">Departure</label>
+                    <input class="inp-style " type='date' name=" ">
                 </div>
                 <div class="input-group ">
                     <label for=" ">Return</label>
-                    <input class="inp-style " type="date " name=" ">
+                    <input class="inp-style " type='date' name=" ">
                 </div>
             </div>
             <div class="inputs ">
                 <div class="input-group f-class ">
-                <div>
-                    <label for=" ">First Class ($150)</label>
-                    <input id="first-class-input "  class="inp-style inp-width " type="number "value="1 " >
+                    <div>
+                        <label for=" ">First Class ($150)</label>
+                        <input id="first-class-input " class="inp-style inp-width " type="number " value="1 ">
+                    </div>
+                    <div class="plus-minus-btn ">
+                        <button onclick=" handleTicketChange( 'first-class',true) "><img src="images/plus.png " alt=" "></button>
+                        <button onclick="handleTicketChange( 'first-class',false) "><img src="images/minus.png " alt=" "></button>
+                    </div>
                 </div>
-                <div class="plus-minus-btn ">
-                    <button onclick=" handleTicketChange( 'first-class',true) "><img src="images/plus.png " alt=" "></button>
-                    <button onclick="handleTicketChange( 'first-class',false) "><img src="images/minus.png " alt=" "></button>
-                </div>
-            </div>
                 <div class="input-group f-class ">
                     <div>
                         <label for=" ">Economy ($100)</label>
@@ -111,14 +111,19 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style " id="book-button " >Book Now</button>
+            <button class="btn-style " id="book-button ">Book Now</button>
         </div>
         <!--Booking confirm message-->
         <div class="booking-form " id='message'>
-           <h1> Dear Customer</h1>
-           <h2>Your Booking is Submitted Successfuly.Best of luck</h2>
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, expedita, soluta similique at consectetur tempore quaerat reprehenderit explicabo praesentium nam inventore atque molestias nulla cumque, quae optio modi omnis? Quidem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae, neque, possimus, itaque ipsam reiciendis ut totam quo aperiam doloribus dicta perspiciatis sapiente quam quod excepturi. Quisquam iusto perspiciatis optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis voluptatibus at consequuntur eum optio impedit natus rem possimus deleniti provident, necessitatibus, inventore dignissimos ullam perferendis itaque dolor nihil esse non fugiat. Omnis tempore iusto, enim porro dolore natus consequatur similique eligendi earum autem quae, ipsa alias fugit dignissimos voluptate ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eius, reiciendis aspernatur mollitia officia, quasi saepe, ratione laborum deleniti ipsa aliquid quos illum minima alias quis ex fugit labore consectetur!</p>
+            <h1> Dear Customer</h1>
+            <h2>Your Booking is Submitted Successfuly.Best of luck</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, expedita, soluta similique at consectetur tempore quaerat reprehenderit explicabo praesentium nam inventore atque molestias nulla cumque, quae optio modi omnis? Quidem. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae, neque, possimus, itaque ipsam reiciendis ut totam quo aperiam doloribus dicta perspiciatis sapiente quam quod excepturi. Quisquam iusto perspiciatis optio? Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Perspiciatis voluptatibus at consequuntur eum optio impedit natus rem possimus deleniti provident, necessitatibus, inventore dignissimos ullam perferendis itaque dolor nihil esse non fugiat.
+                Omnis tempore iusto, enim porro dolore natus consequatur similique eligendi earum autem quae, ipsa alias fugit dignissimos voluptate ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eius, reiciendis aspernatur mollitia
+                officia, quasi saepe, ratione laborum deleniti ipsa aliquid quos illum minima alias quis ex fugit labore consectetur!</p>
         </div>
+        <li><a id="return-button" class="active" href="#"> RETUNN TO BOOKING FORM</a></li>
     </main>
 
     <!--js source link here-->

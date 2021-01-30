@@ -37,4 +37,10 @@ function totalCalculator() {
 document.getElementById("book-button ").addEventListener('click', function() {
     document.getElementById('booking-area').style.display = 'none';
     document.getElementById('message').style.display = 'block';
+    document.getElementById("return-button").style.display = 'block';
+});
+document.getElementById("return-button").addEventListener('click', function() {
+    document.getElementById('booking-area').style.display = 'block';
+    document.getElementById('message').style.display = 'none';
+    document.getElementById("return-button").style.display = 'none';
 });

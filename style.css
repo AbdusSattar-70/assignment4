@@ -124,8 +124,8 @@ a.active {
 }
 
 .plus-minus-btn img {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     padding: 1px;
     margin-top: 1px;
 }
@@ -150,6 +150,18 @@ a.active {
     justify-content: space-between;
 }
 
+.inp-style {
+    color: rgb(247, 11, 42);
+}
+
 #message {
     display: none;
+}
+
+#return-button {
+    display: none;
+    text-align: center;
+    padding: 12px;
+    height: 45px;
+    background-color: rgb(243, 88, 88);
 }
