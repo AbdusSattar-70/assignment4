@@ -1,7 +1,6 @@
 // ticket quantity event handler function. This function set index.html by onclick 
 function handleTicketChange(ticketClass, isIncrease) {
     const ticketClassInput = document.getElementById(ticketClass + "-input ").value;
-
     let ticketClassInputTotal = ticketClassInput;
     if (isIncrease == true) {
         ticketClassInputTotal = +ticketClassInput + 1;
@@ -19,6 +18,8 @@ function handleTicketChange(ticketClass, isIncrease) {
     }
     totalCalculator();
 }
+
+
 // subtotal-total event handler function
 function totalCalculator() {
     const firstClassInput = document.getElementById("first-class-input ").value;
